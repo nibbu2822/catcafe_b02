@@ -1,68 +1,12 @@
-# IDE generated files #
-######################
-.vscode/
+# IntelliJ
 .idea/
 *.iml
-.project
-.metadata
-.settings/
-.externalToolBuilders/
-.classpath
+out/
 
-
-# Temporary files #
-###################
-*~
-*.swp
-*.tmp
-*.bak
-.DS_Store
-._*
-
-
-# Temporary directory #
-#######################
-tmp/
-temp/
-resources/
-docs/
-pdf/
-
-
-# Hugo / Pandoc related files #
-###############################
-.hugo_build.lock
-local.yaml
-/data/readings.yaml
-.pandoc
-build
-deps.mk
-book.md
-_sidebar.md
-
-
-# JAVA, Scala #
-###############
-*.class
-*.log
-*.jar
-hs_err_pid*
-replay_pid*
-*.hprof
-**/build/
-**/bin/
-**/out/
-**/target/
+# Gradle
 .gradle/
-# don't ignore any gradle wrapper files
-!gradle/
+build/
 
-
-# Packages #
-############
-*.dmg
-*.iso
-*.rar
-*.zip
-*.tgz
-*.tar.gz
+# OS
+.DS_Store
+Thumbs.db
